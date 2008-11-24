@@ -1,0 +1,67 @@
+/*Image Uploader default styling*/
+#imageuploaderform 
+{
+	padding:2px;
+	margin:5px 0px;
+	line-height:1em;
+	overflow: auto;
+	height: auto;
+	display: block;
+	clear: both;
+		
+}
+
+#imageuploaderform label
+{
+	padding: 5px;
+	font-size: 1.1em;
+}
+
+#imageuploaderform fieldset 
+{
+	border: 1px solid #0097ca;
+	margin:5px 5px;
+}
+
+#imageuploaderform input, #imageuploaderform textarea, #imageuploaderform select
+{
+	display:block;
+	margin:5px 0px 5px 5px;
+	padding:2px;
+}
+
+#imageuploaderform input 
+{
+	width:80%;
+}
+
+#imageuploaderform select 
+{
+	width:50%;
+}
+
+#imageuploaderform textarea 
+{
+	width:90%;
+}
+
+.imageuploadererror 
+{
+	border: 1px solid #ff0000;
+}
+
+input#iusubmit 
+{
+	width:25%;
+	margin-top:3px;
+	padding:2px;
+	display:block;
+}
+
+input.hiddenfield 
+{
+	background:transparent;
+	border:none;
+	padding:0px;
+	margin:0px;
+}
