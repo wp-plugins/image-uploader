@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Image Uploader Plugin
-Plugin URI: http://www.studioyucca.com
+Plugin URI: http://www.studioyucca.com/2008/11/25/image-uploader-wordpress-plugin/
 Description: This plugin will allow users to upload images to the site, but they will be restricted to an exact size depending on the type of upload (graphics, websites, etc)
 It can be easily added to a page by using the code [imageuploaderform].
 Author: Chris Barber, Studioyucca.com
