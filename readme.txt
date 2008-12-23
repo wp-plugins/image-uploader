@@ -3,8 +3,8 @@ Contributors: Chris Barber
 Donate link: 
 Tags: client side uploading, images, submission form
 Requires at least: 2.6.2
-Tested up to: 2.6.3
-Stable tag: 1.0.1
+Tested up to: 2.7
+Stable tag: 1.0.2
 
 This plugin will allow client side users to upload images to a site.
 

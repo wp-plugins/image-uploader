@@ -5,7 +5,7 @@ Plugin URI: http://www.studioyucca.com
 Description: This plugin will allow users to upload images to the site, but they will be restricted to an exact size depending on the type of upload (graphics, websites, etc)
 It can be easily added to a page by using the code [imageuploaderform].
 Author: Chris Barber, Studioyucca.com
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://www.studioyucca.com
 */
 
