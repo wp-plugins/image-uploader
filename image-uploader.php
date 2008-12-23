@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Image Uploader Plugin
-Plugin URI: http://www.studioyucca.com/2008/11/25/image-uploader-wordpress-plugin/
+Plugin URI: http://www.studioyucca.com
 Description: This plugin will allow users to upload images to the site, but they will be restricted to an exact size depending on the type of upload (graphics, websites, etc)
 It can be easily added to a page by using the code [imageuploaderform].
 Author: Chris Barber, Studioyucca.com
-Version: 1.0
+Version: 1.0.1
 Author URI: http://www.studioyucca.com
 */
 
@@ -159,7 +159,7 @@ function wpiu_callback($content)
 			if($wpiu_image_width != $wpiu_accepted_sizes[0])
 			{
 				// incorrect width
-				$wpiu_error_array[] = "<p><em>".__('Error, the file uploaded has the wrong height of: '.$wpiu_image_width.', we expected a size of: '.$wpiu_accepted_sizes[0].'.','iu')."</em></p>";
+				$wpiu_error_array[] = "<p><em>".__('Error, the file uploaded has the wrong width of: '.$wpiu_image_width.', we expected a size of: '.$wpiu_accepted_sizes[0].'.','iu')."</em></p>";
 			}
 			
 			if($wpiu_image_height != $wpiu_accepted_sizes[1])
